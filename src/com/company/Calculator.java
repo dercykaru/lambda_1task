@@ -8,6 +8,7 @@ public class Calculator {
     BinaryOperator<Integer> plus = (x, y) -> (int) (x + y);
     BinaryOperator<Integer> minus = (x, y) -> x - y;
     BinaryOperator<Integer> multyply = (x, y) -> x * y;
+
     BinaryOperator<Integer> devide = (x, y) -> x / y;
 
     UnaryOperator<Integer> pow = x -> x * x;
@@ -17,6 +18,5 @@ public class Calculator {
 
     Consumer<Integer> println = System.out::println;
     Consumer<Boolean> printlnBool = System.out::println;
-
 
 }
